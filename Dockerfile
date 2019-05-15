@@ -1,8 +1,8 @@
 FROM openjdk:11
-LABEL maintainer="Pablo Bastidas V. - pablob.co" description="OpenLiberty Java EE 8 w. Microprofile 1.3 dev"
+LABEL maintainer="Pablo Bastidas V. - pablobastidasv.co" description="OpenLiberty Java EE 8 w. Microprofile 1.3 dev"
 
-ENV RELEASE 2019-01-24_2339
-ENV VERSION 19.0.0.1
+ENV RELEASE 2019-04-19_0642
+ENV VERSION 19.0.0.4
 
 env INSTALL_DIR /opt
 ENV WLP_HOME ${INSTALL_DIR}/wlp
